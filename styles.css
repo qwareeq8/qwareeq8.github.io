@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'CMUSansSerif';
+    src: url('fonts/cmunss.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'CMUSansSerif', Arial, sans-serif;
+    margin: 0;
+    line-height: 1.76;
+    display: flex;
+    font-size: 110%;
+}
+
+.sidebar {
+    background-color: #333;
+    padding-top: 22px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sidebar a {
+    padding: 11px 16.5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+}
+
+.sidebar a:hover {
+    background-color: #575757;
+}
+
+.sidebar a.active {
+    background-color: #575757;
+    color: #fff;
+}
+
+.main-content {
+    padding: 22px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2 {
+    color: #333;
+    font-size: 110%;
+}
+
+p {
+    color: #555;
+    font-size: 110%;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 11px;
+    margin-top: 11px;
+}
+
+.icons a {
+    color: #888;
+    text-decoration: none;
+    font-size: 1.65em;
+}
+
+.icons a:hover {
+    color: #333;
+}
+
+.section {
+    margin-bottom: 22px;
+}
+
+.collapsible {
+    background-color: #f9f9f9;
+    color: #333;
+    cursor: pointer;
+    padding: 11px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 17.6px;
+    width: 100%;
+    font-family: 'CMUSansSerif', Arial, sans-serif;
+}
+
+.content {
+    padding: 0 19.8px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-family: 'CMUSansSerif', Arial, sans-serif;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.testimonial p {
+    color: #555;
+}
+
+.footer {
+    margin-top: 20px;
+    padding-top: 10px;
+    color: #888;
+    font-size: 0.8em;
+    text-align: center;
+}
